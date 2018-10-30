@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<body>
+<table border=1>
+<th>SUBJECT</th>
+<th>MARK</th>
+{% for key, value in result.iteritems() %}
+<tr>
+<td>{{key}}</td>
+<td>{{value}}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
